@@ -1,0 +1,573 @@
+@charset "utf-8";
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@ class_detail.css @@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@( N잡플러스 ) @@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+/*_*_*_*_*_*_*_*_*_*_* in_common _*_*_*_*_*_*_*_*_*_*_*_*/
+
+.d_inner_wrap {  position: relative; width: 100%; max-width: 1108px; margin: 0 auto; }
+
+
+
+/*_*_*_*_*_*_*_*_*_*_* in_common_*_*_*_*_*_*_*_*_*_*_*_*/
+
+
+
+/*	+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	++++++++++++++++++++++  class_detail.css ++++++++++++++++++++++
+	++++++++++++++++++++++  N잡플러스  ++++++++++++++++++++++++++++
+	+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+/*_*_*_*_*_*_*_*_*_*_* mobile(start)_*_*_*_*_*_*_*_*_*_*_*_*/
+
+
+@media screen and ( max-width: 767px ) {
+
+
+	section.visual { overflow: hidden; width: 100%; text-align: center; margin-bottom: 50px; }
+	section.visual h2 { text-align: center; }
+
+	section.visual > div.visual_wrap { overflow: hidden; position: relative; width: 100%; height: 100vh; }
+	section.visual > div.visual_wrap img { width: 100vw; height: 100vh; object-fit: cover; }
+
+	section.visual div.text_wrap { position: absolute; top: 90px; left: 50%; transform: translateX(-50%); width: 100%; color: #fff; text-align: center; }
+
+	section.visual div.text_wrap > h2 { font-size: 1.75em; font-family: 'NanumSquareNeo-Bold'; margin-bottom: 50px; margin-right: 0; }
+	section.visual div.text_wrap > p { display: none; }
+
+	section.visual div.ico_wrap { overflow: hidden; position: absolute; left: 50%; top: 46.875vw; transform: translateX(-50%); margin: 0 auto; color: #fff;  } 
+	section.visual div.ico_wrap { width: 80%; font-size: 0.9375em; }
+	section.visual div.ico_wrap > div { float: left; width: 50%; margin-bottom: 30px; }
+	section.visual div.ico_wrap > div > span { display: block; width: 36px; height: 36px; margin: auto; }
+
+	section.visual div.ico_wrap > div.ico_01 > span { background: url("../images/ico_detail_01.png") no-repeat center; background-size: 100%; }
+	section.visual div.ico_wrap > div.ico_02 > span { background: url("../images/ico_detail_02.png") no-repeat center; background-size: 100%; }
+	section.visual div.ico_wrap > div.ico_03 > span { background: url("../images/ico_detail_03.png") no-repeat center; background-size: 100%; }
+	section.visual div.ico_wrap > div.ico_04 > span { background: url("../images/ico_detail_04.png") no-repeat center; background-size: 100%; }
+	section.visual div.ico_wrap > div.ico_05 > span { background: url("../images/ico_detail_05.png") no-repeat center; background-size: 100%; }
+	section.visual div.ico_wrap > div.ico_06 > span { background: url("../images/ico_detail_06.png") no-repeat center; background-size: 100%; }
+	section.visual div.ico_wrap > div > p.title { margin: 8px 0; line-height: 1.5;  }
+	section.visual div.ico_wrap > div > p { line-height: 1.5; }
+
+
+	/*--------------btn-----------------*/
+
+	div.btn { text-align: center; margin-bottom: 50px; }
+	div.btn > a { clear: both; display: inline-block; padding: 10px 15px; font-size: 0.875em; border: 1px solid #fff; border-radius: 10px; text-align: center; color: #333; }
+	div.btn > a.active { background: #97bf04; color: #fff; border: 1px solid #97bf04; } 
+
+
+	/*--------------course-----------------*/
+
+	/*-------teacher-------*/
+	
+
+	section.teacher { position: relative; padding: 0 6.25vw; margin-bottom: 50px; }
+
+	section.course > div.inner_wrap { width: 100%; padding: 0 3.6458333vw; text-align: center; }
+
+	section.teacher h2 { text-align: center; }
+
+	section.teacher div.text_wrap { width: 100%; text-align: center; }
+	section.teacher div.text_wrap p.pre { position: relative; font-size: 1em; margin: 30px 0 50px; color: #467302; font-family: 'NanumSquareNeo-Bold'; }
+	section.teacher div.text_wrap p.pre::before { content: ""; display: block; position: absolute; left: 0; right: 0; bottom: calc(100% + 5px); margin: auto; width: 30px; height: 60px; background: url("../images/ico_detail_07.png") no-repeat center; background-size: 100%; }
+	section.teacher div.text_wrap p:not(:first-child) { line-height: 1.5; font-size: 0.875em; }
+	section.teacher div.text_wrap p.pre::after { content: ""; display: block; position: absolute; left: 0; right: 0; top: calc(100% + 5px); margin: auto; width: 30px; height: 60px; transform: rotate(180deg); background: url("../images/ico_detail_07.png") no-repeat center; background-size: 100%; }
+	section.teacher div.text_wrap > p._01, p._02 { margin-bottom: 20px; }
+	section.teacher div.text_wrap > p._03 { position: relative; margin-bottom: 50px; }
+	section.teacher div.text_wrap > p._03::before { content:""; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); display: block; width: 45.3125vw; height: 1em; background: rgba(255 ,238 ,0 , 0.3); z-index: -1; }
+	section.teacher div.text_wrap > p._03::after { content:""; position: absolute; left: 50%; bottom: 1.75em; transform: translateX(-50%); display: block; width: 37.1875vw; height: 1em; background: rgba(255 ,238 ,0 , 0.3); z-index: -1; }
+	
+
+	section.teacher div.img_wrap { position: relative; width: 100%; text-align: center; }
+	section.teacher div.img_wrap img { margin: auto; width: 193px; height: 241px; object-fit: cover; }
+	section.teacher div.img_wrap p { position: absolute; left: 20px; bottom: 0; display: inline-block; font-size: 0.875em; font-family: 'NanumSquareNeo-Bold'; padding: 10px 20px; border-radius: 50px; background: #97BF04; color: #fff; }
+
+
+	/*-------introduce-------*/
+
+	section.introduce { position: relative; width: 100%; padding: 50px 6.25vw; background: rgba(151, 183, 4, 0.2);  margin-bottom: 50px; }
+
+
+
+	section.introduce h3 { font-family: 'GangwonEduPowerExtraBoldA'; font-size: 1.875em; width: 100%; text-align: center; color: #fff; -webkit-text-stroke-width: 1px;
+		-webkit-text-stroke-color: #888888; vertical-align: baseline; margin-bottom: 30px; }
+
+	section.introduce ul { width: 800%; }
+
+	section.introduce li { float: left; position: relative; display: inline-block; width: 87.5vw; height: 247px; margin-right: 10px; background: #fff; border: 1px solid #888888; border-radius: 30px; padding: 20px; text-align: center; }
+
+	
+	section.introduce li::after { content: ""; position: absolute; top: calc(50% - 1px); left: 100%; display: block; width: 65px; height: 1px; background: #888888; }
+
+
+
+	section.introduce li > div.text_wrap { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 90%; line-height: 1.5; }
+	section.introduce li > div.text_wrap > p.title { font-size: 1.125em; font-family: 'NanumSquareNeo-Bold'; margin-bottom: 20px; }
+	section.introduce li > div.text_wrap > p.sub { font-size: 0.875em; }
+	
+
+
+	/*-------etc-------*/
+
+	section.etc { position: relative; width: 100vw; padding: 0 6.25vw; text-align: center; margin-bottom: 50px; }
+
+	section.etc > div.inner_wrap { width: 100%; }
+
+
+	section.etc div.recom { margin-bottom: 50px;  }
+
+	section.etc div > p.title { font-size: 1.25em; font-family: 'NanumSquareNeo-ExtraBold'; color: #467302; margin-bottom: 30px; }
+	section.etc div > p.de { position: relative; display: inline-block; font-size: 1em; font-family: 'NanumSquareNeo-Bold'; margin: 0 20px 20px 60px; line-height: 1.5; }
+	section.etc div > p.de::before { content: ""; position: absolute;  left: -40px; top: 0; width: 30px; height: 30px; background: url("../images/ico_detail_checked.png") no-repeat center; background-size: 100%; }
+
+
+	/*--------------curri-----------------*/
+
+
+	section.curri { position: relative; width: 100vw; padding: 0 6.25vw; text-align: center; margin-bottom: 50px; }
+
+	section.curri > div.inner_wrap { width: 100%; text-align: center; }
+
+	section.curri h2 { text-align: center; }
+
+	section.curri ul { width: 800%; text-align: center; }
+	
+	section.curri li { float: left; width: 80.9375vw; border: 1px solid #97BF04; border-radius: 10px; padding: 10px; margin-right: 20px; }
+	section.curri li img { display: block; width: 100%; border-radius: 20px; object-fit: cover; margin-bottom: 20px; }
+	section.curri li p.title { font-size: 1em; font-family: 'NanumSquareNeo-Bold'; margin-bottom: 10px; }
+	section.curri li p.sub { display: none; }
+
+
+	/*-------------question---------------*/
+
+
+	section.question { width: 100%; margin-bottom: 50px; padding: 0 6.25vw;  }
+
+
+
+	section.question h2 { display: block; width: 100%; text-align: center; }
+
+	
+
+	section.question ul { overflow: hidden; width: 100; font-size: 1em; margin-bottom: 50px; text-align: left; }
+
+	section.question ul > li { overflow: hidden; position: relative; width: 100%; border-bottom: 1px solid #bbb; padding:  0 0 0 25px; line-height: 1.5;  }
+	section.question ul > li::before { position: absolute; left: 0px; top: 9px; content: "Q."; width: 16px; font-family: 'NanumSquareNeo-ExtraBold'; }
+
+	section.question ul > li > button { display: block; width: 100%; font-family: 'NanumSquareNeo-Bold'; padding: 10px 0; line-height: 1.5 ; }
+
+	
+	
+	section.question ul > li > button { overflow: hidden; position: relative; }
+
+	section.question ul > li > div.a { height: 0; }
+	section.question ul > li.active > div.a { height: 100%; padding: 20px 0; }
+
+	section.question > div.inner_wrap > button { position: relative; display: block; padding: 20px 40px 20px 80px; border: 1px solid #FFEB3B; margin: auto; font-size: 1em; background: #FFEB3B; border-radius: 10px; text-align: center; color: #333; font-family: 'NanumSquareNeo-Bold'; }
+
+	
+	section.question > div.inner_wrap button span::before { content: ""; position: absolute; left: 40px; top: 50%; transform: translateY(-50%); display: block; width: 40px; height: 40px; background: url(../images/ico_detail_kakao.png) no-repeat center; background-size: 100%; } 
+
+
+
+
+
+
+
+
+
+	
+}
+
+
+
+
+
+/*_*_*_*_*_*_*_*_*_*_* mobile(end)_*_*_*_*_*_*_*_*_*_*_*_*/
+
+/*	+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	+++++++++++++++++++  class_detail.css +++++++++++++++++++++++++
+	++++++++++++++++++++++  N잡플러스  ++++++++++++++++++++++++++++
+	+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+/*_*_*_*_*_*_*_*_*_*_* tablet(start)_*_*_*_*_*_*_*_*_*_*_*_*/
+
+@media screen and ( min-width: 768px ) and ( max-width: 1024px ) {
+
+
+
+	section.visual { width: 100%; text-align: center; }
+	section.visual h2 { text-align: center; }
+
+	section.visual > div.visual_wrap { position: relative; width: 100%; height: 856px; }
+	section.visual > div.visual_wrap img { width: 100%; height: 100%; object-fit: cover; }
+
+	section.visual div.text_wrap { position: absolute; top: 130px; left: 50%; transform: translateX(-50%); width: 100%; color: #fff; text-align: center; }
+
+	section.visual div.text_wrap > h2 { font-size: 2.5em; font-family: 'NanumSquareNeo-Bold'; margin-bottom: 50px; margin-right: 0; }
+	section.visual div.text_wrap > p { font-size: 1.125em; margin-bottom: 20px; line-height: 1.5; }
+
+	section.visual div.ico_wrap { position: absolute; left: 50%; bottom: 70px; transform: translateX(-50%); margin: 0 auto; color: #fff;  } 
+	section.visual div.ico_wrap { width: 55.7291666666vw; }
+	section.visual div.ico_wrap > div { float: left; width: 33.3333%; }
+	section.visual div.ico_wrap > div > span { display: block; width: 48px; height: 48px; margin: auto; }
+
+	section.visual div.ico_wrap > div.ico_01 > span { background: url("../images/ico_detail_01.png") no-repeat center; background-size: 100%; }
+	section.visual div.ico_wrap > div.ico_02 > span { background: url("../images/ico_detail_02.png") no-repeat center; background-size: 100%; }
+	section.visual div.ico_wrap > div.ico_03 > span { background: url("../images/ico_detail_03.png") no-repeat center; background-size: 100%; }
+	section.visual div.ico_wrap > div.ico_04 > span { background: url("../images/ico_detail_04.png") no-repeat center; background-size: 100%; }
+	section.visual div.ico_wrap > div.ico_05 > span { background: url("../images/ico_detail_05.png") no-repeat center; background-size: 100%; }
+	section.visual div.ico_wrap > div.ico_06 > span { background: url("../images/ico_detail_06.png") no-repeat center; background-size: 100%; }
+	section.visual div.ico_wrap > div > p.title { margin: 10px 0; line-height: 1.5;  }
+	section.visual div.ico_wrap > div:nth-child(3) > p.desc { margin-bottom: 30px; }
+
+
+	/*--------------btn-----------------*/
+
+	div.btn { text-align: center; }
+	div.btn > a { clear: both; display: inline-block; padding: 15px 40px; font-size: 1.25em; border: 1px solid #fff; border-radius: 10px; text-align: center; color: #333; margin: 70px 0 90px; }
+	div.btn > a.active { background: #97bf04; color: #fff; border: 1px solid #97bf04; } 
+
+
+
+	/*--------------course-----------------*/
+
+	/*-------teacher-------*/
+	
+
+	section.teacher { position: relative; padding: 0 70px; margin-bottom: 90px; }
+
+	section.course > div.inner_wrap { width: 100%; padding: 0 3.6458333vw; text-align: center; }
+
+	section.teacher h2 { text-align: center; }
+
+	section.teacher div.text_wrap { width: 100%; text-align: center; }
+	section.teacher div.text_wrap p.pre { position: relative; font-size: 1.875em; margin: 50px 0 70px; color: #467302; font-family: 'NanumSquareNeo-Bold'; }
+	section.teacher div.text_wrap p.pre::before { content: ""; display: block; position: absolute; left: -10px; bottom: 100%; width: 40px; height: 80px; background: url("../images/ico_detail_07.png") no-repeat center; background-size: 100%; }
+	section.teacher div.text_wrap p:not(:first-child) { line-height: 1.5; font-size: 1.25em; }
+	section.teacher div.text_wrap p.pre::after { content: ""; display: block; position: absolute; right: -10px; top: 100%; width: 40px; height: 80px; transform: rotate(180deg); background: url("../images/ico_detail_07.png") no-repeat center; background-size: 100%; }
+	section.teacher div.text_wrap > p._01, p._02 { margin-bottom: 20px; }
+	section.teacher div.text_wrap > p._03 { position: relative; margin-bottom: 50px; }
+	section.teacher div.text_wrap > p._03::before { content:""; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); display: block; width: 29.6875vw; height: 1em; background: rgba(255 ,238 ,0 , 0.3); z-index: -1; }
+	section.teacher div.text_wrap > p._03::after { content:""; position: absolute; left: 50%; bottom: 1.75em; transform: translateX(-50%); display: block; width: 24.4791666vw; height: 1em; background: rgba(255 ,238 ,0 , 0.3); z-index: -1; }
+	
+
+	section.teacher div.img_wrap { position: relative; width: 100%; text-align: center; }
+	section.teacher div.img_wrap img { margin: auto; width: 377px; height: 458px; object-fit: cover; }
+	section.teacher div.img_wrap p { position: absolute; left: 20px; bottom: 50px; display: inline-block; font-size: 1.5em; font-family: 'NanumSquareNeo-Bold'; padding: 15px 25px; border-radius: 50px; background: #97BF04; color: #fff; }
+
+
+
+	/*-------introduce-------*/
+
+
+	section.introduce { width: 100%; background: rgba(151, 183, 4, 0.2); padding: 90px 0; margin-bottom: 90px; }
+
+	section.introduce > div.inner_wrap { width: 100%; text-align: center; padding: 0 11.58854166vw; }
+
+	section.introduce h3 { font-family: 'GangwonEduPowerExtraBoldA'; font-size: 3.125em; color: #fff; -webkit-text-stroke-width: 1px;
+		-webkit-text-stroke-color: #888888; vertical-align: baseline; margin-bottom: 30px; }
+
+	section.introduce li { position: relative; display: inline-block; width: 34.1145833vw; height: 247px; background: #fff; border: 1px solid #888888; border-radius: 30px; padding: 20px; text-align: center; }
+	section.introduce li:nth-child(1){ float: left; margin-bottom: 30px; }
+	section.introduce li:nth-child(2) { float: right; margin-bottom: 30px; }
+	section.introduce li:nth-child(3){ float: left; margin-bottom: 30px; }
+	section.introduce li:nth-child(4) { float: right; margin-bottom: 30px; }
+	section.introduce li:nth-child(5) { clear: both; }
+
+	
+	section.introduce li:nth-child(even)::before { content: ""; position: absolute; top: calc(50% - 1px); right: 100%; display: block; width: 65px; height: 1px; background: #888888; }
+	section.introduce li:nth-child(3)::before { content: ""; position: absolute; top: calc(50% - 1px); left: 100%; display: block; width: 65px; height: 1px; background: transparent; z-index: -1; }
+
+
+	section.introduce li > div.text_wrap { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 90%; line-height: 1.5; }
+	section.introduce li > div.text_wrap > p.title { font-size: 1.125em; font-family: 'NanumSquareNeo-Bold'; margin-bottom: 20px; }
+	section.introduce li > div.text_wrap > p.sub { font-size: 0.875em; }
+	
+
+
+	/*-------etc-------*/
+
+	section.etc { position: relative; margin-bottom: 90px; }
+
+	section.etc > div.inner_wrap { width: 100%; padding: 0 3.6458333vw; text-align: center; }
+
+	section.etc h2 { text-align: center; }
+
+	section.etc div.recom { margin: 0 15vw 50px; }
+	section.etc div.benefit { margin: 0 20vw; }
+	
+
+	section.etc div > p.title { font-size: 2.5em; font-family: 'NanumSquareNeo-ExtraBold'; color: #467302; margin-bottom: 50px; }
+	section.etc div > p.de { position: relative; display: inline-block; font-size: 1.25em; font-family: 'NanumSquareNeo-Bold'; margin-bottom: 20px; line-height: 1.5;  }
+	section.etc div > p.de::before { content: ""; position: absolute;  left: -40px ; top: 0; width: 30px; height: 30px; background: url("../images/ico_detail_checked.png") no-repeat center; background-size: 100%; }
+
+
+
+
+	/*--------------curri-----------------*/
+
+
+	section.curri { position: relative; padding: 0 70px; margin-bottom: 90px; }
+
+	section.curri > div.inner_wrap { width: 100%; text-align: center; }
+
+	section.curri h2 { text-align: center; }
+
+	section.curri ul { width: 800%; text-align: left; }
+	
+	section.curri li { float: left; width: 76.43229166vw; border: 1px solid #97BF04; border-radius: 20px; padding: 20px; margin-right: 20px; }
+	section.curri li img { display: block; width: 100%; border-radius: 20px; object-fit: cover; margin-bottom: 30px; }
+	section.curri li p.title { font-size: 1.5em; font-family: 'NanumSquareNeo-Bold'; margin-bottom: 10px; }
+	section.curri li p.sub { font-size: 1.125em; line-height: 1.5; margin-bottom: 20px;  }
+
+
+	/*-------------question---------------*/
+
+
+	section.question { width: 100%; margin-bottom: 70px; }
+
+	section.question > div.inner_wrap { width: 100%; padding: 0 3.6458333vw; }
+
+	section.question h2 { display: block; width: 100%; text-align: center; }
+
+	
+
+	section.question ul { overflow: hidden; width: 100%; font-size: 1.25em; margin-bottom: 60px; }
+
+	section.question ul > li { overflow: hidden; position: relative; width: 100%; border-bottom: 1px solid #bbb; padding:  0 20px 0 50px; line-height: 1.5; }
+	section.question ul > li::before { position: absolute; left: 20px; top: 16px; content: "Q."; width: 20px; font-family: 'NanumSquareNeo-ExtraBold'; }
+
+	section.question ul > li > button { display: block; width: 100%; font-family: 'NanumSquareNeo-Bold'; padding: 20px 0; }
+	section.question ul > li > div.q { overflow: hidden; font-family: 'NanumSquareNeo-Bold'; }
+	
+	
+	section.question ul > li > button { overflow: hidden; position: relative;  }
+	section.question ul > li > button::after { content: ""; position: absolute; top: calc(50% - 10px); right: 20px; width: 13px; height: 20px; background: #333; clip-path: polygon(90% 0%, 100% 0%, 10% 50%, 100% 100%, 90% 100%, 0% 50%); transform: rotate(270deg);  }
+	section.question ul > li.active > button::after { content: ""; position: absolute; top: calc(50% - 10px); right: 20px; width: 13px; height: 20px; background: #333; clip-path: polygon(90% 0%, 100% 0%, 10% 50%, 100% 100%, 90% 100%, 0% 50%); transform: rotate(90deg);  }
+
+	section.question ul > li > div.a { height: 0; }
+	section.question ul > li.active > div.a { height: 100%; padding: 20px 0; }
+
+	section.question > div.inner_wrap > button { position: relative; display: block; padding: 20px 40px 20px 80px; border: 1px solid #FFEB3B; margin: auto; font-size: 1.25em; background: #FFEB3B; border-radius: 15px; text-align: center; color: #333; margin-bottom: 70px; font-family: 'NanumSquareNeo-Bold'; }
+
+	
+	section.question > div.inner_wrap button span::before { content: ""; position: absolute; left: 40px; top: 50%; transform: translateY(-50%); display: block; width: 40px; height: 40px; background: url(../images/ico_detail_kakao.png) no-repeat center; background-size: 100%; } 
+
+
+
+
+
+
+
+	
+}
+
+
+
+/*_*_*_*_*_*_*_*_*_*_* tablet(end)_*_*_*_*_*_*_*_*_*_*_*_*/
+
+/*	+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	++++++++++++++++++++++  class_detail.css ++++++++++++++++++++++
+	++++++++++++++++++++++  N잡플러스  ++++++++++++++++++++++++++++
+	+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+/*_*_*_*_*_*_*_*_*_*_* desktop(start)_*_*_*_*_*_*_*_*_*_*_*_*/
+
+
+@media screen and ( min-width: 1025px ) {
+
+ /*********************************************************/
+
+
+	h2 { font-size: 1.875em; font-family: 'NanumSquareNeo-Bold'; margin-bottom: 50px; }
+
+
+
+ /*********************************************************/
+
+	
+	section.visual { width: 100%; text-align: center; }
+
+	section.visual > div.visual_wrap { position: relative; width: calc(100vw - 100px); height: 717px; margin: 50px 50px 80px 50px; }
+	section.visual > div.visual_wrap img { width: 100%; height: 100%; object-fit: cover; }
+
+	section.visual div.text_wrap { position: absolute; top: 120px; left: 50%; transform: translateX(-50%); color: #fff; text-align: center; }
+
+	section.visual div.text_wrap > h2 { font-size: 3.125em; font-family: 'NanumSquareNeo-Bold'; margin-bottom: 50px; }
+	section.visual div.text_wrap > p { font-size: 1.125em; margin-bottom: 20px; line-height: 1.5; }
+
+	section.visual div.ico_wrap { position: absolute; left: 50%;bottom: 70px; transform: translateX(-50%); margin: 0 auto; width: 100%; color: #fff;  } 
+	section.visual div.ico_wrap > div { display: inline-block; margin: auto; }
+	section.visual div.ico_wrap > div > span { display: block; width: 48px; height: 48px; margin: auto; }
+	section.visual div.ico_wrap > div.ico_01 > span { background: url("../images/ico_detail_01.png") no-repeat center; background-size: 100%; }
+	section.visual div.ico_wrap > div.ico_02 > span { background: url("../images/ico_detail_02.png") no-repeat center; background-size: 100%; }
+	section.visual div.ico_wrap > div.ico_03 > span { background: url("../images/ico_detail_03.png") no-repeat center; background-size: 100%; }
+	section.visual div.ico_wrap > div.ico_04 > span { background: url("../images/ico_detail_04.png") no-repeat center; background-size: 100%; }
+	section.visual div.ico_wrap > div.ico_05 > span { background: url("../images/ico_detail_05.png") no-repeat center; background-size: 100%; }
+	section.visual div.ico_wrap > div.ico_06 > span { background: url("../images/ico_detail_06.png") no-repeat center; background-size: 100%; }
+	section.visual div.ico_wrap > div > p.title { margin: 10px 0; line-height: 1.5; padding: 0 70px; }
+
+
+	/*--------------btn-----------------*/
+
+
+	div.btn > a { clear: both; display: inline-block; padding: 15px 40px; border: 1px solid #fff; border-radius: 15px; text-align: center; color: #333; margin-bottom: 70px; }
+	div.btn > a:hover { background: #97bf04; color: #fff; border: 1px solid #97bf04; } 
+	div.btn > a.active { background: #97bf04; color: #fff; border: 1px solid #97bf04; } 
+
+
+
+
+	/*--------------course-----------------*/
+
+	/*-------teacher-------*/
+	
+
+	section.teacher { margin-bottom: 90px; text-align: center; }
+
+	section.teacher div.text_wrap { float: left; width: 50%; height: 620px; text-align: center; }
+	section.teacher div.text_wrap p.pre { position: relative; font-size: 1.875em; margin: 70px 0 90px 0; color: #467302; font-family: 'NanumSquareNeo-Bold'; }
+	section.teacher div.text_wrap p.pre::before { content: ""; display: block; position: absolute; left: -10px; bottom: 100%; width: 40px; height: 80px; background: url("../images/ico_detail_07.png") no-repeat center; background-size: 100%; }
+	section.teacher div.text_wrap p:not(:first-child) { line-height: 1.5; font-size: 1.25em; }
+	section.teacher div.text_wrap p.pre::after { content: ""; display: block; position: absolute; right: -10px; top: 100%; width: 40px; height: 80px; transform: rotate(180deg); background: url("../images/ico_detail_07.png") no-repeat center; background-size: 100%; }
+	section.teacher div.text_wrap > p._01, p._02 { margin-bottom: 20px; }
+	section.teacher div.text_wrap > p._03 { position: relative;  }
+	section.teacher div.text_wrap > p._03::before { content:""; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); display: block; width: 12vw; height: 1em; background: rgba(255 ,238 ,0 , 0.3); z-index: -1; }
+	section.teacher div.text_wrap > p._03::after { content:""; position: absolute; left: 50%; bottom: 1.75em; transform: translateX(-50%); display: block; width: 10vw; height: 1em; background: rgba(255 ,238 ,0 , 0.3); z-index: -1; }
+	
+
+	section.teacher div.img_wrap { position: relative; float: right; width: 50%; height: 620px; }
+	section.teacher div.img_wrap img { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); margin: auto; width: 496px; height: 620px; object-fit: cover; }
+	section.teacher div.img_wrap p { position: absolute; left: 20px; bottom: 50px; display: inline-block; font-size: 1.5em; font-family: 'NanumSquareNeo-Bold'; padding: 15px 25px; border-radius: 50px; background: #97BF04; color: #fff; }
+
+
+
+	/*-------introduce-------*/
+
+	section.introduce { width: 100%; background: rgba(151, 183, 4, 0.2); padding: 90px 0; margin-bottom: 90px; }
+
+	section.introduce h3 { font-family: 'GangwonEduPowerExtraBoldA'; font-size: 5em; color: #fff; -webkit-text-stroke-width: 1px;
+		-webkit-text-stroke-color: #888888; vertical-align: baseline; margin-bottom: 30px; }
+
+	section.introduce li { position: relative; display: inline-block; width: calc((100% - 120px) / 3); height: 248px; background: #fff; border: 1px solid #888888; border-radius: 30px; padding: 20px; text-align: center; }
+	section.introduce li:not(:last-child)::before { content: ""; position: absolute; top: calc(50% - 1px); left: 100%; display: block; width: 65px; height: 1px; background: #888888; }
+	section.introduce li:nth-child(3)::before { content: ""; position: absolute; top: calc(50% - 1px); left: 100%; display: block; width: 65px; height: 1px; background: transparent; }
+
+	section.introduce li._01 { float: left; position: relative; margin-bottom: 60px; }
+	section.introduce li._01 + li._01 { margin-left: 60px; }
+	section.introduce li > div.text_wrap { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 90%; line-height: 1.5; }
+	section.introduce li > div.text_wrap > p.title { font-size: 1.25em; font-family: 'NanumSquareNeo-Bold'; margin-bottom: 20px; }
+	section.introduce li > div.text_wrap > p.sub { font-size: 0.875em; }
+	section.introduce li:nth-child(4) { float: left; margin-left: 17.66%; }
+	section.introduce li:nth-child(5) { float: right; margin-right: 17.66%; }
+	
+
+
+	/*-------etc-------*/
+
+	section.etc { width: 100%; margin-bottom: 90px; }
+
+	section.etc div.recom { position: relative; float: left; width: 50%; }
+
+	section.etc div.benefit { position: relative; float: right; width: 50%; }
+
+	section.etc div > p.title { font-size: 2.5em; font-family: 'NanumSquareNeo-ExtraBold'; color: #467302; margin-bottom: 40px; }
+	section.etc div > p.de { position: relative; font-size: 1.25em; font-family: 'NanumSquareNeo-Bold'; margin-left: 50px; margin-bottom: 20px; line-height: 1.5; }
+	section.etc div > p.de::before { content: ""; position: absolute; left: -50px; top: 50%; transform: translateY(-50%); width: 36px; height: 36px; background: url("../images/ico_detail_checked.png") no-repeat center; background-size: 100%; }
+
+
+
+
+	/*--------------curri-----------------*/
+
+	section.curri { width: 100%; margin-bottom: 90px; }
+
+	section.curri li { float: left; width: calc((100% - 20px) / 2); border: 1px solid #97BF04; border-radius: 20px; padding: 20px; }
+	section.curri li:nth-child(odd) { margin-right: 20px; margin-bottom: 20px; }
+	section.curri li:nth-child(7) { margin-bottom: 0; }
+	section.curri li img { display: block; width: 100%; border-radius: 20px; object-fit: cover; margin-bottom: 30px; }
+	section.curri li p.title { font-size: 1.5em; font-family: 'NanumSquareNeo-Bold'; margin-bottom: 10px; }
+	section.curri li p.sub { font-size: 1.25em; line-height: 1.5; margin-bottom: 20px;  }
+
+
+	/*-------------question---------------*/
+
+	section.question { width: 100%; margin-bottom: 90px; }
+
+	section.question ul { overflow: hidden; width: 100%; font-size: 1.25em; margin-bottom: 60px; }
+
+	section.question ul > li { overflow: hidden; position: relative; width: 100%; border-bottom: 1px solid #bbb; padding:  0 20px 0 50px; line-height: 1.5; }
+	section.question ul > li::before { position: absolute; left: 20px; top: 16px; content: "Q."; width: 20px; font-family: 'NanumSquareNeo-ExtraBold'; }
+
+	section.question ul > li > button { display: block; width: 100%; font-family: 'NanumSquareNeo-Bold'; padding: 20px 0; }
+	section.question ul > li > div.q { overflow: hidden; font-family: 'NanumSquareNeo-Bold'; }
+	
+	section.question ul > li > button { overflow: hidden; position: relative;  }
+	section.question ul > li > button::after { content: ""; position: absolute; top: calc(50% - 10px); right: 20px; width: 13px; height: 20px; background: #333; clip-path: polygon(90% 0%, 100% 0%, 10% 50%, 100% 100%, 90% 100%, 0% 50%); transform: rotate(270deg);  }
+	section.question ul > li.active > button::after { content: ""; position: absolute; top: calc(50% - 10px); right: 20px; width: 13px; height: 20px; background: #333; clip-path: polygon(90% 0%, 100% 0%, 10% 50%, 100% 100%, 90% 100%, 0% 50%); transform: rotate(90deg);  }
+	section.question ul > li > div.a { height: 0; }
+	section.question ul > li.active > div.a { height: 100%; padding: 20px 0; }
+	section.question ul > li > div.a {
+		opacity: 0;
+		transform: translateY(-10px);
+		max-height: 0;
+		overflow: hidden;
+		transition: opacity 0.5s ease, transform 0.5s ease;
+	}
+	
+	section.question ul > li.active > div.a {
+		opacity: 1;
+		transform: translateY(0);
+		max-height: none; /* max-height를 다시 원상태로 복구 */
+	}
+	
+
+	section.question > div.inner_wrap > button { position: relative; display: block; padding: 20px 40px 20px 80px; border: 1px solid #FFEB3B; margin: auto; font-size: 1.25em; background: #FFEB3B; border-radius: 15px; text-align: center; color: #333; margin-bottom: 70px; font-family: 'NanumSquareNeo-Bold'; }
+
+	
+	section.question > div.inner_wrap button span::before { content: ""; position: absolute; left: 40px; top: 50%; transform: translateY(-50%); display: block; width: 40px; height: 40px; background: url(../images/ico_detail_kakao.png) no-repeat center; background-size: 100%; } 
+
+
+
+
+
+
+}
+
+
+
+/*_*_*_*_*_*_*_*_*_*_* desktop(end)_*_*_*_*_*_*_*_*_*_*_*_*/

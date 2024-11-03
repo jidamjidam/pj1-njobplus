@@ -1,0 +1,430 @@
+@charset "utf-8";
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@ common.css @@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@ (PJ1_N잡플러스) @@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+
+
+/*_*_*_*_*_* font-face(start)_*_*_*_*_*_*_*/
+
+@font-face {
+	font-family: 'NanumSquareNeo-Regular';
+	src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-bRg.eot);
+	src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-bRg.eot?#iefix) format("embedded-opentype"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-bRg.woff) format("woff"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-bRg.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: 'NanumSquareNeo-Bold';
+	src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-cBd.eot);
+	src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-cBd.eot?#iefix) format("embedded-opentype"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-cBd.woff) format("woff"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-cBd.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: 'NanumSquareNeo-ExtraBold';
+	src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-dEb.eot);
+	src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-dEb.eot?#iefix) format("embedded-opentype"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-dEb.woff) format("woff"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-dEb.ttf) format("truetype");
+}
+
+
+
+/* noto-serif-kr-regular - latin */
+
+@font-face {
+	font-family: 'Noto Serif KR';
+	src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NotoSerifKR.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'GangwonEduPowerExtraBoldA';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduPowerExtraBoldA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*_*_*_*_*_* font-face(end)_*_*_*_*_*_*_*/
+
+
+
+/*_*_*_*_*_* in-common(srart)_*_*_*_*_*_*_*/
+
+
+
+	body { font-family: 'NanumSquareNeo-Regular'; }
+
+
+	section { overflow: hidden; position: relative; }
+
+
+	.inner_wrap { position: relative; width: 100%; max-width: 1108px; margin: 0 auto; }
+	.inner_wrap_02 { position: relative; width: 100%; max-width: 1208px; margin: 0 auto; }
+
+
+
+
+
+/* .dir_btns[class ~= "_bg_K"] > span { background: #333; }
+
+	.dir_btns[class ~= "prev_01"] > span { clip-path: polygon(39% 0, 43% 0, 71% 50%, 43% 100%, 39% 100%, 67% 50%); transform: rotate(180deg); }
+	.dir_btns[class ~= "next_01"] > span { clip-path: polygon(39% 0, 43% 0, 71% 50%, 43% 100%, 39% 100%, 67% 50%); }
+	
+
+	.dir_btns[class ~= "prev_01"] > span { clip-path: polygon(19% 35%, 22% 36%, 4% 58%, 100% 57%, 100% 61%, 0 61%, 0 59%); }
+	.dir_btns[class ~= "next_01"] > span {  clip-path: polygon(19% 35%, 22% 36%, 4% 58%, 100% 57%, 100% 61%, 0 61%, 0 59%); transform: rotate(180deg); } */
+
+
+
+
+/*_*_*_*_*_* in-common(end)_*_*_*_*_*_*_*/
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++  common.css ++++++++++++++++++++++++++++
++++++++++++++++++++  (PJ1_N잡플러스)  +++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+
+/*_*_*_*_*_* mobile(start)_*_*_*_*_*_*_*/
+
+@media screen and ( max-width: 767px ) {
+
+
+
+	.dir_btns[class ~= "_bg_K"] > span { background: #aaa; }
+
+	.dir_btns[class ~= "prev_01"] > span { clip-path: polygon(0% 100%, 24% 0%, 26% 6%, 6% 90%, 100% 90%, 100% 100%, 0% 100%); vertical-align: middle; }
+	.dir_btns[class ~= "next_01"] > span {  clip-path: polygon(94% 90%, 74% 7%, 76% 0%, 100% 100%, 100% 100%, 0% 100%, 0% 90%); vertical-align: middle;  }
+
+
+	.dir_btns[class ~= "_L"] > span { width: 56px; height: 14px; }
+
+	section h2 { display: inline-block; margin-right: 15px; margin-bottom: 30px; font-size: 1.25em; font-family: 'NanumSquareNeo-Bold'; }
+
+	section button.btn_more { display: inline-block; width: 1.25em; height: 1.25em; background: url("../images/ico_more.png") no-repeat center; background-size: 100%; vertical-align: middle; margin-bottom: 4px; }
+
+
+	header { overflow: hidden; position: fixed; left: 0; top: 0; z-index: 100; width: 100%; height: 60px; }  
+	header h1 > a { position: absolute; left: 5.625vw; top: 0; bottom: 0; margin: auto; display: block; width: 3.75em; height: 2.0625em; background: url("../images/white_logo.png") no-repeat center; background-size: 100%; z-index: 120; }
+	header > div.utility { overflow: hidden; position: absolute; top: 0; bottom: 0; right: 5.625vw; margin: auto; vertical-align: middle; line-height: 60px;  }
+	header > div.utility > a.ico:nth-last-child(1) { display: inline-block; width: 30px; height: 30px; background: url("../images/ico_menu.png") no-repeat right; background-size: 100%; vertical-align: middle; }
+	header > div.utility > a.ico:nth-child(1) { display: none; }
+	header > div.utility > a.log { display: none; }
+
+	
+	header.bg { overflow: hidden; position: fixed; top: 0; left: 0; width: 100vw; height: 60px; background: #fff; border-bottom: 1px solid #ddd; } 
+	header.bg h1 > a { position: absolute; left: 5.625vw; bottom: 0; display: block; width: 3.75em; height: 2.0625em; background: url("../images/color_logo.png") no-repeat center; background-size: 100%; z-index: 115; }
+	header.bg > div.utility { position: absolute; right: 5.625vw; bottom: 0;  }
+	header.bg > div.utility > a { color: #467302; }
+	header.bg > div.utility > a.ico:nth-child(1) { display: none; }
+	header.bg > div.utility > a:nth-child(2) { display: none; }
+	header.bg > div.utility > a.ico:nth-last-child(1) { background: url("../images/ico_menu_color.png") no-repeat center; background-size: 100%; }
+
+	button.btn_close { display: block; position: absolute; right: 5.625vw; top: 3.90625vw; width: 30px; height: 30px; line-height: 60px; background: url("../images/ico_close.png") no-repeat center; background-size: 100%; z-index: 120; }
+
+	/* 여기까지 */
+
+	header.bg button.btn_close { display: block; position: absolute; right: 2.6041666vw; top: 0; width: 30px; height: 30px; background: url("../images/ico_close.png") no-repeat center; background-size: 100%; z-index: 130; }
+	/*bg 켜져있는 상황에서 nav 나왔을 때 바꿔주기 h1 색 바꿔줘야함*/
+
+	header nav { overflow: hidden; position: fixed; left: 100vw; top: 0; bottom: 100vh; z-index: 105; width: 100vw; height: 100vh; transition: transform 0.2s;  color: #fff;  }
+
+	header.on nav { overflow: hidden; transform: translateX(-100%); }
+
+	nav > ul { position: absolute; left: 0; top: 0; width: 100vw; height: 100vh; padding: 12.32394366vh 9.375vw 5.28169014vh; z-index: 120; }
+
+	nav > ul > li { font-size: 0.8125em; }
+
+	nav > div.m_bg { width: 100vw; height: 100vh; }
+	nav > div.m_bg img { position: absolute; left: 0; top: 0; width: 100%; height: 100%; object-fit: cover; }
+	nav > div.m_bg img.img_01 { z-index: 104; }
+	nav > div.m_bg img.img_02 { z-index: 103; }
+	nav > div.m_bg img.img_03 { z-index: 102; }
+
+	
+
+	nav ul.sub > div { margin-bottom: 20px; width: 100%; }
+	nav ul.sub > div li { display: inline-block; padding-top: 15px; padding-right: 20px; }
+	nav ul.sub > li > a { margin-top: 15px 0 10px; }
+
+	nav .btn_subs { position: relative; width: 100%; display: inline-block; font-size: 1.75em; color: #fff; font-family: 'NanumSquareNeo-ExtraBold'; margin: 20px 0; }
+
+	nav .btn_subs::before { content: ""; position: absolute; top: 4px; right: calc(100% + 10px); display: block; width: 999999px; height: 4px; background: #97BF04; }
+	nav .btn_subs::after {content:''; display:block; position:absolute; right: 10px; top:50%; transform:translate(50%, -50%); transform-origin:35%; width:0.5em; height:0.4166em; background:#fff; clip-path: polygon(50% 100%, 0 0, 100% 0); transition: transform 0.3s; }
+
+	nav > ul > li.active button::after { transform: translate(50%, -50%) rotate(180deg);  }
+
+	nav > ul > li ul.sub { overflow:hidden; height: 0; transition: height 0.2s; }
+	nav > ul > li.active:nth-child(1) ul.sub { height: 100%; }
+	nav > ul > li.active:nth-child(2) ul.sub { height: 100%; }
+	nav > ul > li.active:nth-child(3) ul.sub { height: 100%; }
+
+	
+
+
+
+
+
+
+	/*-------- footer ---------*/
+
+
+
+	footer { overflow: hidden; display: inline-block; width: 100vw; height: 160px; font-size: 0.75em; background: url("../images/image_index_footer_bg_M.jpg") no-repeat center; background-size: 100%; color: #fff; text-align: center;  }
+
+	div.f_inner_wrap { position: relative; width: 100%; height: 100%; }
+
+
+	footer div.footer_list { display: none; }
+	footer div.footer_info { display: none; }
+
+	footer div.m_footer { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); margin: auto; width: 100%; }
+	footer div.m_footer > a { display: inline-block; width: 48px; height: 28px; background: url("../images/white_logo.png") no-repeat center; background-size: 100%; margin-bottom: 5px; }
+	footer div.m_footer > p { margin-bottom: 5px; }
+
+
+
+
+
+
+
+}
+
+
+
+/*_*_*_*_*_* mobile(end)_*_*_*_*_*_*_*/
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++  common.css ++++++++++++++++++++++++++++
++++++++++++++++++++  (PJ1_N잡플러스)  +++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/*_*_*_*_*_* tablet(start)_*_*_*_*_*_*_*/
+
+@media screen and ( min-width: 768px ) and ( max-width: 1024px ) {
+
+
+	.dir_btns[class ~= "_bg_K"] > span { background: #aaa; }
+
+	.dir_btns[class ~= "prev_01"] > span { clip-path: polygon(0% 100%, 24% 0%, 26% 6%, 6% 90%, 100% 90%, 100% 100%, 0% 100%); vertical-align: middle; }
+	.dir_btns[class ~= "next_01"] > span {  clip-path: polygon(94% 90%, 74% 7%, 76% 0%, 100% 100%, 100% 100%, 0% 100%, 0% 90%); vertical-align: middle;  }
+
+
+	.dir_btns[class ~= "_S"] > span { width: 20px; height: 20px; }
+	.dir_btns[class ~= "_M"] > span { width: 40px; height: 40px; }
+	.dir_btns[class ~= "_L"] > span { width: 80px; height: 20px; }
+
+	section h2 { display: inline-block; margin-right: 30px; margin-bottom: 50px; font-size: 1.875em; font-family: 'NanumSquareNeo-Bold'; }
+
+
+	header { overflow: hidden; position: fixed; left: 0; top: 0; z-index: 100; width: calc(100vw - 3.64583333vw); height: 80px; }  
+	h1 > a { position: absolute; left: 3.64583333vw; top: 0; bottom: 0; margin: auto; display: block; width: 5.25em; height: 3em; background: url("../images/white_logo.png") no-repeat center; background-size: 100%; z-index: 110; }
+	header > div.utility { position: absolute; width: 200px; right: 0; top: 0; bottom: 0; margin: auto; text-align: right; }
+	header > div.utility > a { padding: 0 15px; color: #fff; vertical-align: center; line-height: 80px; }
+	header > div.utility > a.ico { display: inline-block; width: 30px; height: 30px; vertical-align: middle; } 
+	header > div.utility > a.ico:nth-child(1) { background: url("../images/ico_search.png") no-repeat center; background-size: 100%; }
+	header > div.utility > a.ico:nth-last-child(1) { background: url("../images/ico_menu.png") no-repeat center; background-size: 100%; }
+
+	
+	header.bg { overflow: hidden; position: fixed; top: 0; left: 0; width: 100vw; background: #fff; border-bottom: 1px solid #ddd } 
+	header.bg > h1 > a {  position: absolute; left: 3.64583333vw; top: 0; bottom: 0; margin: auto; display: block; width: 5.25em; height: 3em; background: url("../images/color_logo.png") no-repeat center; background-size: 100%; z-index: 115; }
+	header.bg > div.utility { position: absolute; right: 3.64583333vw; }
+	header.bg > div.utility > a { color: #467302; }
+	header.bg > div.utility > a.ico:nth-child(1) { background: url("../images/ico_search_color.png") no-repeat center; background-size: 100%; }
+	header.bg > div.utility > a.ico:nth-last-child(1) { background: url("../images/ico_menu_color.png") no-repeat center; background-size: 100%; }
+
+	header.bg button.btn_close { display: block; position: absolute; right: 3.64583333vw; top: 30px; width: 30px; height: 30px; background: url("../images/ico_close.png") no-repeat center; background-size: 100%; }
+	/*bg 켜져있는 상황에서 nav 나왔을 때 바꿔주기 h1 색 바꿔줘야함*/
+
+	header nav { overflow: hidden; position: fixed; left: 100vw; top: 0; bottom: 100vh; z-index: 105; width: 100vw; height: 100vh; transition: transform 0.2s;  color: #fff;  }
+
+	header.on nav { overflow: hidden; transform: translateX(-100%); }
+
+
+	nav > ul > li { overflow: hidden; position: relative; padding: 0 3.64583333vw; }
+	nav > ul > li:nth-child(1) { width: 100vw; height: 45vh; background: url("../images/image_index_nav_01_T.jpg") no-repeat center; background-size: cover; }
+	nav > ul > li:nth-child(2) { width: 100vw; height: 27.5vh; background: url("../images/image_index_nav_02_T.jpg") no-repeat center; background-size: cover; }
+	nav > ul > li:nth-child(3) { width: 100vw; height: 27.5vh; background: url("../images/image_index_nav_03_T.jpg") no-repeat center; background-size: cover; }
+
+	nav > ul > li:nth-child(1) > div.pos { position: absolute; top: 12.6953125vh; left: 13.0208333333vw; margin: auto; }
+	nav > ul > li:nth-child(2) > div.pos { position: absolute; top: 5.859375vh; left: 13.0208333333vw; margin: auto; }
+	nav > ul > li:nth-child(3) > div.pos { position: absolute; top: 5.859375vh; left: 13.0208333333vw; margin: auto; }
+	
+
+	nav ul.sub > div { margin-bottom: 20px; width: 80%; }
+	nav ul.sub > div li { display: inline-block; padding-top: 15px; padding-right: 30px; }
+	nav ul.sub > li { padding: 10px 0; }
+	nav ul.sub > li:nth-child(1) { padding-top: 15px; }
+
+	nav .btn_subs { position: relative; font-size: 2.25em; color: #fff; font-family: 'NanumSquareNeo-ExtraBold'; }
+	nav .btn_subs::before { content: ""; position: absolute; top: 4px; right: calc(100% + 10px); display: block; width: 999999px; height: 4px; background: #97BF04; }
+
+	button.btn_close { display: block; position: absolute; right: 80px; top: 75px; width: 30px; height: 30px; background: url("../images/ico_close.png") no-repeat center; background-size: 100%; }
+	button.btn_close { display: block; position: absolute; right:  3.64583333vw; top: 30px; width: 30px; height: 30px; background: url("../images/ico_close.png") no-repeat center; background-size: 100%; }
+
+
+
+	
+
+	footer { overflow: hidden; display: block; width: 100vw; padding: 30px 3.64583333vw; background: url("../images/image_index_footer_bg_T.jpg") no-repeat center; background-size: 100%; color: #fff;  }
+	/* footer div.footer_list { margin-top: 50px; } */
+
+	.f_inner_wrap { overflow: hidden; position: relative; width: 100vw; margin: 0 3.64583333vw;  }
+
+	footer ul { position: relative; width: 100%; padding-bottom: 20px;  }
+	footer ul::before { content: ""; position: absolute; top: 0; right: calc(100% - 2px); display: block; width: 2px; height: 99999999px; background: #97BF04; }
+	footer ul::after { content:""; clear: both; }
+	footer ul > li { padding-left: 20px; margin-bottom: 10px; font-size: 0.875em; }
+
+	footer div.footer_info { clear: both; position: relative; float: right; width: 50%;  }
+	footer div.footer_info::before { content: ""; position: absolute; top: -400px; right: 100%; right: calc(100% + 20px); display: block; width: 2px; height: 99999999px; background: #97BF04; }
+
+	div.footer_info > p { font-size: 0.75em; line-height: 1.5; }
+	div.footer_info > p.name { font-size: 1em; font-family: 'NanumSquareNeo-Bold'; margin-bottom: 30px; }
+
+	footer div.m_footer { display: none; }
+
+
+	
+
+}
+
+
+/*_*_*_*_*_* tablet(end)_*_*_*_*_*_*_*/
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++  common.css ++++++++++++++++++++++++++++
++++++++++++++++++++  (PJ1_N잡플러스)  +++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/*_*_*_*_*_* desktop(start)_*_*_*_*_*_*_*/
+
+@media screen and ( min-width: 1025px ) {
+
+
+	.dir_btns[class ~= "_bg_K"] > span { background: #333; }
+
+	.dir_btns[class ~= "prev_01"] > span { clip-path: polygon(39% 0, 43% 0, 71% 50%, 43% 100%, 39% 100%, 67% 50%); transform: rotate(180deg); }
+	.dir_btns[class ~= "next_01"] > span { clip-path: polygon(39% 0, 43% 0, 71% 50%, 43% 100%, 39% 100%, 67% 50%); }
+
+	.dir_btns[class ~= "_S"] > span { width: 20px; height: 20px; }
+	.dir_btns[class ~= "_M"] > span { width: 40px; height: 40px; }
+	.dir_btns[class ~= "_L"] > span { width: 50px; height: 50px; }
+
+	h2 { display: inline-block; margin-right: 30px; font-size: 1.875em; font-family: 'NanumSquareNeo-Bold'; }
+
+	.view_mask { overflow: hidden; position: relative; width: 1128px; margin: 0 auto; }
+
+	/* active motion */
+
+	.FI_grp { transition: transform 0.75s, opacity 0.75s; }
+
+	.FI_grp[class ~= "fi_0"] { transform: translate(0, 0); opacity: 0; }
+	.FI_grp[class ~= "fi_1"] { transform: translate(0, -50px); opacity: 0; }
+	.FI_grp[class ~= "fi_2"] { transform: translate(50px, 0); opacity: 0; }
+	.FI_grp[class ~= "fi_3"] { transform: translate(0, 50px); opacity: 0; }
+	.FI_grp[class ~= "fi_4"] { transform: translate(-50px, 0); opacity: 0; }
+ 
+	.FI_grp[class ~= "active"] { transform: translate(0, 0); opacity: 1; }
+
+
+	header { position: fixed; left: 0; top: 0; z-index: 100; width: 100vw; height: 115px; }  
+	h1 > a { position: absolute; left: 80px; bottom: 0; display: block; width: 5.25em; height: 3em; background: url("../images/white_logo.png") no-repeat center; background-size: 100%; z-index: 110; }
+	header > div.utility { position: absolute; bottom: 0px; right: 90px; width: 200px; height: 48px; text-align: right;  }
+	header > div.utility > a { padding: 0 15px; color: #fff; vertical-align: center; line-height: 48px; }
+	header > div.utility > a.ico { display: inline-block; width: 30px; height: 30px; vertical-align: middle; } 
+	header > div.utility > a.ico:nth-child(1) { background: url("../images/ico_search.png") no-repeat center; background-size: 100%; }
+	header > div.utility > a.ico:nth-last-child(1) { background: url("../images/ico_menu.png") no-repeat center; background-size: 100%; }
+
+	
+	header.bg { overflow: hidden; height: 80px; background: #fff; border-bottom: 1px solid #ddd; } 
+	header.bg > h1 > a { position: absolute; left: 80px; top: 0; bottom: 0; margin: auto; display: block; width: 5.25em; height: 3em; background: url("../images/color_logo.png") no-repeat center; background-size: 100%; z-index: 110; }
+	header.bg > div.utility { top: 0; bottom: 0; right: 80px; margin: auto; }
+	header.bg > div.utility > a { color: #467302; }
+	header.bg > div.utility > a.ico:nth-child(1) { background: url("../images/ico_search_color.png") no-repeat center; background-size: 100%; }
+	header.bg > div.utility > a.ico:nth-last-child(1) { background: url("../images/ico_menu_color.png") no-repeat center; background-size: 100%; }
+
+	/*bg 켜져있는 상황에서 nav 나왔을 때 바꿔주기 h1 색 바꿔줘야함*/
+	header.bg button.btn_close { display: block; position: absolute; right: 90px; top: 30px; width: 30px; height: 30px; background: url("../images/ico_close.png") no-repeat center; background-size: 100%; }
+
+	header nav { overflow: hidden; position: fixed; left: 0; bottom: 100vh; z-index: 105; width: 100vw; height: 100vh; transition: transform 0.2s;  background: #fff; color: #fff; font-size: 1.125em; }
+
+	header.on nav { overflow: hidden; transform: translateY(100%); }
+
+
+
+	nav > ul > li { overflow: hidden; position: relative; padding: 0 60px; }
+	nav > ul > li > div.pos { position: absolute; top: 25vh; left: 40px; margin: auto; }
+	nav > ul > li:nth-child(1) { float: left; width: 50%; height: 100vh; background: url("../images/image_index_nav_01_D.jpg") no-repeat center; background-size: cover; }
+	nav > ul > li:nth-child(2) { float: left; width: 25%; height: 100vh; background: url("../images/image_index_nav_02_D.jpg") no-repeat center; background-size: cover; }
+	nav > ul > li:nth-child(3) { float: right; width: 25%; height: 100vh; background: url("../images/image_index_nav_03_D.jpg") no-repeat center; background-size: cover; }
+	
+
+	nav ul.sub > div { margin-bottom: 40px; width: 60%; }
+	nav ul.sub > div li { display: inline-block; padding-top: 15px; padding-right: 30px; }
+/* 	nav ul.sub li { position: relative; } */
+	nav ul.sub > li { padding: 25px 0; }
+	nav ul.sub li:hover > a { position: relative; }
+	nav ul.sub li:hover > a::after { content: ""; position: absolute; top: -7px; left: -7px; display: block; width: 7px; border-top: 10px solid #97bf04; border-right: 10px solid transparent; }
+	nav .btn_subs { position: relative; display: block; font-size: 2em; color: #fff; font-family: 'NanumSquareNeo-ExtraBold'; margin-bottom: 80px; }
+	nav .btn_subs::before { content: ""; position: absolute; top: 4px; right: calc(100% + 10px); display: block; width: 999999px; height: 4px; background: #97BF04; }
+
+	button.btn_close { display: block; position: absolute; right: 80px; top: 75px; width: 30px; height: 30px; background: url("../images/ico_close.png") no-repeat center; background-size: 100%; }
+
+
+
+	footer { overflow: hidden; display: block; width: 100%; background: url("../images/image_index_footer_bg_D.jpg") no-repeat center; background-size: 100%; padding: 50px 0; color: #fff;  }
+	/* footer div.footer_list { margin-top: 50px; } */
+
+	.f_inner_wrap { overflow: hidden; position: relative; width: 1108px; margin: 0 auto; }
+
+	footer ul { position: relative; float: left; width: 30%; }
+	footer ul::before { content: ""; position: absolute; top: 0; right: calc(100% - 2px); display: block; width: 2px; height: 99999999px; background: #97BF04; }
+	footer ul::after { content:""; clear: both; }
+	footer ul > li { padding-left: 20px; margin-bottom: 10px; font-size: 0.875em; }
+	footer ul > li:hover > a { border-bottom: 1px solid #fff; }
+
+	footer div.footer_info { clear: both; position: relative; float: right; width: 30%;  }
+	footer div.footer_info::before { content: ""; position: absolute; top: -400px; right: 100%; right: calc(100% + 20px); display: block; width: 2px; height: 99999999px; background: #97BF04; }
+
+	div.footer_info > p { font-size: 0.75em; line-height: 1.5; }
+	div.footer_info > p.name { font-size: 1.25em; font-family: 'NanumSquareNeo-Bold'; margin-bottom: 30px; }
+
+	footer div.m_footer { display: none; }
+
+}
+
+
+/*_*_*_*_*_* desktop(end)_*_*_*_*_*_*_*/
