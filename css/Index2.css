@@ -95,9 +95,9 @@
 
 	section.new_class a.btn_more { display: inline-block; width: 20px; height: 20px; background: url("../images/ico_more.png") no-repeat center; background-size: 100%; vertical-align: middle; margin-bottom: 4px; }
 
-	/* section.new_class div.view_mask { overflow: hidden; position: relative; width: 92.70833334vw; margin: 0 auto; } */
+	section.new_class div.view_mask { overflow-x: scroll; position: relative; width: 92.70833334vw; margin: 0 auto; }
 
-	section.new_class div.view_mask ul.main { width: 300%; overflow-x: scroll; }
+	section.new_class div.view_mask ul.main { width: 300%;  }
 	section.new_class div.view_mask ul.list_all { display: none; }
 	section.new_class div.view_mask ul.main > li { float: left; position: relative; width: 67.1875vw; padding: 10px; }
 	section.new_class div.view_mask ul.main > li > div { position: relative; width: 100%; height: 265px; border: 2px solid #97bf04; border-radius: 10px; padding: 10px; }
@@ -114,9 +114,7 @@
 
 
 	section.new_class ul.main button { display: none; }
-
 	section.new_class .dir_btns { display: none; }
-
 
 
 
@@ -157,9 +155,10 @@
 
 	section.review { overflow: hidden; width: 100vw; position: relative; padding: 60px 2.6041666vw; }
 
-	section.review ul.main { width: 600%; overflow-x: scroll; }
+	section.review ul.main { width: 600%; }
 
-	section.review div.inner_wrap { width: 100vw; text-align: center; }
+	section.review div.inner_wrap { width: 100vw; text-align: center;  }
+	section.review div.inner_wrap_02 { overflow-x: scroll; }
 
 	section.review ul.main > li { float: left; position: relative; width: 64.6875vw; padding: 0 10px; }
 	section.review ul.main > li div[class ^= "review"] { position: relative; border: 1px solid #97BF04; height: 320px; border-radius: 10px; }
