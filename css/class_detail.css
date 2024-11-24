@@ -162,7 +162,7 @@
 
 	
 
-	section.question ul { overflow: hidden; width: 100; font-size: 1em; margin-bottom: 50px; text-align: left; }
+	section.question ul { overflow: hidden; width: 100%; font-size: 1em; margin-bottom: 50px; text-align: left; }
 
 	section.question ul > li { overflow: hidden; position: relative; width: 100%; border-bottom: 1px solid #bbb; padding:  0 0 0 25px; line-height: 1.5;  }
 	section.question ul > li::before { position: absolute; left: 0px; top: 9px; content: "Q."; width: 16px; font-family: 'NanumSquareNeo-ExtraBold'; }
