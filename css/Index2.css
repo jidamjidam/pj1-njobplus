@@ -117,8 +117,7 @@
 	section.new_class .dir_btns { display: none; }
 
 
-
-	a.class_major > span { display: block; width: calc(100vw -10px); height: 279px; margin-bottom: 60px; background: url("../images/image_index_class_banner_M.jpg") no-repeat center; background-size: 100%; }
+	a.class_major > span { display: block; width: calc(100vw - 10px); height: 279px; margin-bottom: 60px; background: url("../images/image_index_class_banner_M.jpg") no-repeat center; background-size: 100%; }
 
 
 
